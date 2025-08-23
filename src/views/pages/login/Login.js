@@ -42,6 +42,7 @@ const Login = () => {
 
         // Save token in localStorage
         localStorage.setItem("token", data.access_token);
+        localStorage.setItem("currentUser", JSON.stringify(data.current_user));
 
         // Redirect to dashboard/home
         navigate("/");
