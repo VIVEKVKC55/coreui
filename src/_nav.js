@@ -40,8 +40,13 @@ const _nav = [
       },
       {
         component: CNavItem,
-        name: 'Logout',
-        to: '/logout',
+        name: 'FileUploadForm',
+        to: '/file-upload',
+      },
+      {
+        component: CNavItem,
+        name: 'My Files',
+        to: '/files',
       },
     ],
   },
